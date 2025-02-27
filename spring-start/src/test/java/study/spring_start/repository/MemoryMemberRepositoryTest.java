@@ -14,7 +14,7 @@ class MemoryMemberRepositoryTest {
 
     @AfterEach
     public void afterEach() {
-        repository.cleanStore(); // Test 함수들은 서로 의존 관계 없이 설계되어야 함
+        repository.clearStore(); // Test 함수들은 서로 의존 관계 없이 설계되어야 함
     }
 
     @Test
